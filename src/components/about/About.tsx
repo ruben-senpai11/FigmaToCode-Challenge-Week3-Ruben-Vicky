@@ -7,11 +7,13 @@ function About() {
       <div className="container">
         <section className="about-section">
           <div className="about-texts">
-            <p>ABOUT COMPANY</p>
+            <h5>ABOUT COMPANY</h5>
             <h1>ABOUT US</h1>
-            <p className='about-text'>We know how large objects will act,
+            <p>We know how large objects will act,
               but things on a small scale</p>
-            <ButtonCTA>Get quote now</ButtonCTA>  
+              <button className="cta">
+                Get Quote Now
+              </button>
           </div>
         </section>
       </div>

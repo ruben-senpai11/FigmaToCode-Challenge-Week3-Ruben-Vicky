@@ -1,7 +1,7 @@
 .about-section{
     display: flex;
     justify-content: space-between;
-    height: 500px;
+    height: 550px;
     /* border: solid; */
 }
 .about-texts{
@@ -12,12 +12,17 @@
     gap: 50px;
     /* border: solid; */
 }
-.about-text{
-    font-size: 16px;
-    width: 300px;
+.about-texts p{
+    font-size: 19px;
+    width: 380px;
+    line-height: 35px;
+    margin-top: -15px;
 }
 .about-texts h1{
-    font-size: 3rem;
+    font-size: 3.5rem;
+}
+.about-texts h5{
+    font-size: 1.05em;
 }
 .about-image{
     width: 100%;
@@ -28,4 +33,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
+}
+.about-section .cta{
+    padding: 18px 35px;
 }
