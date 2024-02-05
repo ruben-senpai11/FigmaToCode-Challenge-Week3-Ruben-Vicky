@@ -1,0 +1,31 @@
+:root{
+    --black: #333;
+    --blue: #21a2f2;
+    --text-color: #737273
+}
+
+html, body, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+li, p, h6{
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter/Inter-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/Montserrat/Montserrat-Bold.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}

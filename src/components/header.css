@@ -1,0 +1,32 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 10%;
+    gap: 100px;
+}
+
+.navbar ul{
+    margin-left: -10%;
+    gap: 20px;
+}
+.logo{
+    font-size: 1.5em;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li a{
+    color: #737273;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.right-nav-links{
+    gap: 40px;
+}
