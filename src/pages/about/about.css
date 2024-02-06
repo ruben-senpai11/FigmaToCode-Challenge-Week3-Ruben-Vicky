@@ -36,8 +36,8 @@
 .about-section .cta{
     padding: 18px 35px;
 }
-.problem-trying, .stats, .video-and-team{
-    width: 95%;
+.problem-trying, .stats, .video{
+    width: 92%;
     /* border: solid; */
 }
 
@@ -84,24 +84,27 @@
     font-weight: 680;
     color: #747474;
 }
-.video-and-team{
+.video{
     margin: 20% auto;
+    /* display: flex;
+    justify-content: center; */
 }
 .video img{
     width: 100%;
 }
 .team{
     margin: 15% auto;
+    margin-top: 20%;
 }
 
 .team-intro{
     text-align: center;
     justify-content: center;
 }
-.team-intro h2{
+h2{
     font-size: 2.5em;
 }
-.team-intro p{
+p{
     font-size: 14px;
 }
 
@@ -120,4 +123,62 @@
 }
 .name{
     margin-top: 15px;
+}
+
+.big-companies{
+    margin: auto;
+    padding: 5% 0;
+    background-color: #fafafa;
+}
+.big-companies .container{
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
+.partenrs{
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 6%;
+    gap: 100px;
+}
+
+.work-with-us{
+    display: flex;
+    justify-content: space-between;
+}
+.blue-side{
+    justify-content: center;
+    align-items: flex-start;
+    width: 75%;
+    padding-left: 10%;
+    gap: 30px;
+    background-color: #2a7cc6;
+}
+.blue-side h5{
+    font-size: 16px;
+}
+.blue-side h3{
+    font-size: 2.4em;
+}
+.blue-side p{
+    line-height: 150%;
+}
+.blue-side button{
+    margin-top: -5px;
+    padding: 2.4% 6%;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.blue-side button:hover{
+    background-color: #21a2f2;
+}
+.image-side{
+    width: 50%; 
+    object-fit: cover;
+    overflow: hidden;
 }

@@ -1,13 +1,14 @@
 import React from 'react';
-import Header from "./components/navigation/Header"
+import Navigation from "./components/navigation/Header"
+import Footer from "./components/navigation/Footer"
 import './App.css'
 
 
 function App() {
   return (
     <>
-      <Header></Header>
-    
+      <Navigation></Navigation>
+      <Footer></Footer>
     </>
   );
 }

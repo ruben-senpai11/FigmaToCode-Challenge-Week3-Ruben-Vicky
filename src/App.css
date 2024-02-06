@@ -22,16 +22,19 @@
     border-radius: 5px;
     padding: 18px 25px;
     border: none;
-    font-size: 1em;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 700;
     cursor: pointer;
     font-family: inherit;
+}
+.cta:hover{
+    background-color: #2a7cc6;
 }
 
 .link{
     color: inherit;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 14px;
     color: var(--blue);
     font-weight: 600;
 }
@@ -49,4 +52,7 @@
 
 .text-gray{
     color: #747474;
+}
+.text-white{
+    color: white;
 }

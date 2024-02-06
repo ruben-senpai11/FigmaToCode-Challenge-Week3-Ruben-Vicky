@@ -10,13 +10,15 @@ html, body, *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat";
+    font-family: "Montserrat"!important;
     color: var(--text-color);
 }
 
-li, p, h6{
+li, p, h6, a{
+    font-size: 14px;
     color: var(--text-color);
     font-weight: 600;
+    line-height: 150%;
 }
 
 @font-face {

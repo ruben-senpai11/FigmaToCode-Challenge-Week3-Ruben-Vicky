@@ -4,7 +4,7 @@ import Home from '../../pages/about/About';
 import Pricing from '../../pages/pricing/Pricing';
 import Team from '../../pages/team/Team';
 import Contact from '../../pages/contact/Contact';
-import './header.css'
+import './navigation.css'
 import arrow_right from '../../assets/icn arrow-right .icn-xs.png'
 
 function Header() {
