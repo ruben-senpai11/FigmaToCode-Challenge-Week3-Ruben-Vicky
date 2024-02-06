@@ -41,3 +41,12 @@
     padding: 0 10%;
 }
 
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-gray{
+    color: #747474;
+}

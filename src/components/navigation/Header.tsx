@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Home from './about/About';
-import Pricing from './pricing/Pricing';
-import Team from './team/Team';
-import Contact from './contact/Contact';
+import Home from '../../pages/about/About';
+import Pricing from '../../pages/pricing/Pricing';
+import Team from '../../pages/team/Team';
+import Contact from '../../pages/contact/Contact';
 import './header.css'
-import arrow_right from '../assets/icn arrow-right .icn-xs.png'
+import arrow_right from '../../assets/icn arrow-right .icn-xs.png'
 
 function Header() {
   return (
