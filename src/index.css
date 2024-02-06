@@ -1,7 +1,9 @@
 :root{
     --black: #333;
     --blue: #21a2f2;
-    --text-color: #737273
+    --red: #da5131;
+    --text-color: #2d2b2d;
+    --text-gray: #747474;
 }
 
 html, body, *{
@@ -9,6 +11,7 @@ html, body, *{
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat";
+    color: var(--text-color);
 }
 
 li, p, h6{

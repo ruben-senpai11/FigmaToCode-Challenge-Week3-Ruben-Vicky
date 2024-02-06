@@ -1,0 +1,123 @@
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    height: 550px;
+    /* border: solid; */
+}
+.about-texts{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 50px;
+}
+.about-texts p{
+    font-size: 19px;
+    width: 380px;
+    line-height: 35px;
+    margin-top: -15px;
+}
+.about-texts h1{
+    font-size: 3.5rem;
+}
+.about-texts h5{
+    font-size: 1.05em;
+}
+.about-image{
+    width: 100%;
+    height: 700px;
+    margin-top: -550px;
+    z-index: -999;
+    background-image: url("../../assets/about-section.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.about-section .cta{
+    padding: 18px 35px;
+}
+.problem-trying, .stats, .video-and-team{
+    width: 95%;
+    /* border: solid; */
+}
+
+.problem-trying{
+    gap: 20px;
+    margin: 7% auto;
+}
+.problem-trying p{
+    font-size: 12px;
+    color: #da5131;
+}
+.problem-trying .content{
+    justify-content: space-between;
+    gap: 30px;
+    align-items: flex-start;
+}
+.problem-trying h2{
+    width: 51%;
+}
+.problem-trying h4{
+    font-size: 14px;
+    font-weight: 600;
+    color: #747474;
+}
+.stats{ 
+    margin: 12% auto;
+    display: flex;
+    justify-content: space-between;
+}
+.stat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.stat-number{
+    font-size: 4em;
+    font-weight: 600;
+    text-align: center;
+}
+.stat-desctipion{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 680;
+    color: #747474;
+}
+.video-and-team{
+    margin: 20% auto;
+}
+.video img{
+    width: 100%;
+}
+.team{
+    margin: 15% auto;
+}
+
+.team-intro{
+    text-align: center;
+    justify-content: center;
+}
+.team-intro h2{
+    font-size: 2.5em;
+}
+.team-intro p{
+    font-size: 14px;
+}
+
+.user-cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 12% auto;
+}
+.user-card{
+    text-align: center;
+}
+.name, .profession{
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 15px;
+}
+.name{
+    margin-top: 15px;
+}
