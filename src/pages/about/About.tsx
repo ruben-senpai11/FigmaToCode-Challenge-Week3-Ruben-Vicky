@@ -105,7 +105,7 @@ function About() {
           <h3 className="text-white">Now Let's grow Yours</h3>
           <p className="text-white">The gradual accumulation of information about atomic and <br className='desktop'/>
               small-scale behavior during the first carter of the 20th  </p>
-          <button>Button</button>
+          <button className='cta'>Button</button>
         </div>
         <div className="image-side">
           <img src={workImage} alt="Conciliant woman" />

@@ -1,0 +1,78 @@
+.what-we-do{
+    padding: 50px 0;
+}
+.what-we-do .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.what-we-do h1{
+    font-size: 2.5em;
+}
+.breadcum{
+    align-items: center;
+    gap: 10px;
+}
+.wwd-images{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+}
+.left-img{
+    width: 49%;
+}
+.four-images{
+    width: 51%;
+}
+.left-img img{
+    width: 100%;
+    object-fit: cover;
+}
+.four-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 7px;
+    height: 100%;
+}
+.four-images img{
+    width: 50%;
+    height: 50%;
+}
+.split-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 7px;
+    width: 100%;
+}
+
+.team{
+    margin: 0;
+}
+
+.user-cards{
+    margin: 10% auto;
+    margin-bottom: 12%;
+}
+.free-trial{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.free-trial .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 35px;
+}
+.free-trial .container button{
+    width: max-content;
+    margin: 0 auto;
+}
+.freeT-media{
+    gap: 30px;
+}

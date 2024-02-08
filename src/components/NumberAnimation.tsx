@@ -25,7 +25,7 @@ const ScrollNumberAnimation = ({ finalNumber }) => {
   }, [inView, finalNumber]);
 
   return (
-    <div ref={ref}>
+    <div className='number-animation' ref={ref}>
       {count}
     </div>
   );

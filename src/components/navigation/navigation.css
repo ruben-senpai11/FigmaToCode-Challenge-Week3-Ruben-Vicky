@@ -61,6 +61,9 @@ hr{
     height: 0.5px;
 }
 
+.footer-media{
+    padding-right: 5%;
+}
 .footer-links{
     display: flex;
     justify-content: space-between;
@@ -220,6 +223,9 @@ hr{
         flex-direction: column;
         gap: 20px;
         align-items: start;
+    }
+    .footer-media{
+        padding-right: 0%;
     }
     .footer-media a img{
         width: 90%;

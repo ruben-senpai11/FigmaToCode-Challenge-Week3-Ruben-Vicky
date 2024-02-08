@@ -14,11 +14,11 @@ function UserCard ({userImageSrc, userImageAlt}:Props){
                 <img src={userImageSrc} alt={userImageAlt} />
                 <p className="name">Username</p>
                 <p className="profession text-gray">Profession</p>
-                <p className="user-media d-flex gap-20">
+                <div className="user-media d-flex gap-20">
                     <a href="#"><img src={facebook} alt="Facebook logo" /></a>
                     <a href="#"><img src={instagram} alt="Instagram logo" /></a>
                     <a href="#"><img src={twitter} alt="Twitter logo" /></a>
-                </p>
+                </div>
             </div>
         </>
     )

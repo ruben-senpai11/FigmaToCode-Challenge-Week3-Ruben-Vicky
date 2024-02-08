@@ -121,6 +121,11 @@ p{
 .user-card{
     text-align: center;
     max-width: 30%;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out
+}
+.user-card:hover{
+    transform: scale(1.02);
 }
 .user-card img{
     border-radius: 2px;
@@ -185,6 +190,8 @@ p{
 }
 .blue-side button:hover{
     background-color: #21a2f2;
+    border: 1px solid #21a2f2;
+    box-shadow: 0 0 4px #21a2f2;
 }
 .image-side{
     width: 50%; 

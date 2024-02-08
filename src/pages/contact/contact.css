@@ -1,0 +1,126 @@
+.contact.about-section{
+    height: 600px;
+}    
+.contact .about-texts{
+    margin-top: 100px;
+}
+.contact.about-image{
+    margin-top: -600px;
+    background-image: url("../../assets/none.png");
+}
+.contacts p{
+    display: flex;
+    font-weight: 700;
+}
+.contacts .number-animation{
+    margin-left: 7px;
+}
+
+.location{
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin: 100px 0;
+}
+.location h5{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.contact-cards{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 10px;
+    /* z-index: 999; */
+}
+.contact-card{
+    align-items: center;
+    gap: 15px;
+    padding: 80px 50px;
+    background-color: white;
+}
+.contact-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #23A6F0;
+    transition: all 0.2s ease-in-out;
+
+}
+.contact-card img{
+    width: 35%;
+}
+.contact-card h5{
+    text-transform: capitalize;
+}
+
+.contact-card.middle{
+    background-color: #252b43;
+}
+.contact-card.middle p, .contact-card.middle h5{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+.contact-card button{
+    padding: 17px 35px;
+    color: #23A6F0;
+    background: transparent;
+    border: 1px solid #23A6F0;
+    border-radius: 50px;
+}
+.contact-card button:hover{
+    color: white;
+    background-color: #23A6F0;
+}
+
+.talk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.talk h5{
+    font-size: 16px;
+}
+.talk h2{
+    font-size: 3.5em;
+}
+.talk button{
+    font-weight: 700;
+    padding: 17px 35px;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .contact.about-image{
+        margin: 0px;
+        margin-top: -110px;
+        background-position: center;
+    }
+
+    .contact .about-texts{
+        margin-top: 0px;
+    }
+    .contact .about-texts h5{
+        display: flex;
+    }
+    .contacts{
+        gap: 30px!important;
+    }
+
+    .desk-container{
+        margin: 0;
+        padding: 0!important;
+    }
+    .location{
+        margin: 0;
+        padding: 80px 10%;
+        background-color: #fafafa;
+    }
+    .contact-cards{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .talk{
+        margin: 50px 0;
+    }
+}

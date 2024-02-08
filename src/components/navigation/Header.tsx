@@ -36,6 +36,7 @@ function Header() {
             <li onClick={setNavFalse}><Link to="#">Product</Link></li>
             <li onClick={setNavFalse}><Link to="/pricing">Pricing</Link></li>
             <li onClick={setNavFalse}><Link to="/contact">Contact</Link></li>
+            <li onClick={setNavFalse}><Link to="/team">Team</Link></li>
           </ul>
           <div className="right-nav-links">
             <a href="" className='link'>Login</a>
