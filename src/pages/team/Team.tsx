@@ -5,6 +5,11 @@ import fourImg1 from '../../assets/four1.png'
 import fourImg2 from '../../assets/four2.png'
 import fourImg3 from '../../assets/four3.png'
 import fourImg4 from '../../assets/four4.png'
+import mobileLeftImg from '../../assets/up1.png'
+import mobileFourImg1 from '../../assets/f1.png'
+import mobileFourImg2 from '../../assets/f2.png'
+import mobileFourImg3 from '../../assets/f3.png'
+import mobileFourImg4 from '../../assets/f4.png'
 import UserCard from '../../components/UserCard'
 import user1 from '../../assets/media.png'
 import user2 from '../../assets/media (1).png'
@@ -31,16 +36,21 @@ function Team() {
         </div>
         <div className="wwd-images">
           <div className="left-img">
-            <img src={leftImg} alt="Dress Image" />
+            <img src={leftImg} alt="Dress Image" className='desktop'/>
+            <img src={mobileLeftImg} alt="Dress Image" className='mobile'/>
           </div>
           <div className="four-images">
             <div className="split-2">
-              <img src={fourImg1} alt="Dress Image" />
-              <img src={fourImg2} alt="Dress Image" />
+              <img src={fourImg1} alt="Dress Image" className='desktop'/>
+              <img src={fourImg2} alt="Dress Image" className='desktop'/>
+              <img src={mobileFourImg1} alt="Dress Image" className='mobile'/>
+              <img src={mobileFourImg2} alt="Dress Image" className='mobile'/>
             </div>
             <div className="split-2">
-              <img src={fourImg3} alt="Dress Image" />
-              <img src={fourImg4} alt="Dress Image" />
+              <img src={fourImg3} alt="Dress Image" className='desktop'/>
+              <img src={fourImg4} alt="Dress Image" className='desktop'/>
+              <img src={mobileFourImg3} alt="Dress Image" className='mobile'/>
+              <img src={mobileFourImg4} alt="Dress Image" className='mobile'/>
             </div>
           </div>
         </div>

@@ -76,3 +76,27 @@
 .freeT-media{
     gap: 30px;
 }
+
+@media screen and (max-width: 900px) {
+    .what-we-do{
+        padding-top: 120px;
+    }
+    .what-we-do h1{
+        
+    }
+    .wwd-images{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .left-img, .four-images{
+        width: 100%;
+    }
+    .four-images img{
+        width: 50%;
+        height: 100%;
+    }
+    .free-trial .container{
+        margin-bottom: 100px;
+    }
+}
