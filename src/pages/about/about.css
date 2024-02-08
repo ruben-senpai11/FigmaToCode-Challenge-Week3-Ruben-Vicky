@@ -55,7 +55,8 @@
     align-items: flex-start;
 }
 .problem-trying h2{
-    width: 51%;
+    width: 65%;
+    font-size: 1.5em;
 }
 .problem-trying h4{
     font-size: 14px;
@@ -66,17 +67,21 @@
     margin: 12% auto;
     display: flex;
     justify-content: space-between;
+    gap: 15px;
 }
 .stat{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
+    align-items: flex-start;
     gap: 5px;
+    width: 20%;
 }
 .stat-number{
     font-size: 4em;
     font-weight: 600;
     text-align: center;
+    display: flex;
 }
 .stat-desctipion{
     text-transform: capitalize;
@@ -115,6 +120,10 @@ p{
 }
 .user-card{
     text-align: center;
+    max-width: 30%;
+}
+.user-card img{
+    border-radius: 2px;
 }
 .name, .profession{
     font-size: 14px;
@@ -136,10 +145,9 @@ p{
     gap: 30px;
 }
 .partenrs{
-    justify-content: space-between;
+    justify-content: space-between!important;
     margin-top: 5%;
     margin-bottom: 6%;
-    gap: 100px;
 }
 
 .work-with-us{
@@ -162,6 +170,7 @@ p{
 }
 .blue-side p{
     line-height: 150%;
+    width: 90%;
 }
 .blue-side button{
     margin-top: -5px;
@@ -181,4 +190,94 @@ p{
     width: 50%; 
     object-fit: cover;
     overflow: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+    .blue-side{
+        padding-left: 5%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .about-section{
+        margin-top: 5%;
+        justify-content: center;
+    }
+    .about-texts h5{
+        display: none;
+    }
+    .about-texts, .problem-trying{
+        align-items: center;
+        text-align: center;
+    }
+    .about-texts p{
+        width: 100%;
+        line-height: 120%;
+        font-size: 15px;
+    }
+    .about-image{
+        margin-top: -250px;
+    }
+    .about-section  h1{
+        font-size: 2em;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .content h2{
+        width: 100%;
+        font-size: 1.5em;
+    }
+    .content h4{
+        margin-top: 40px;
+        text-align: start;
+    }
+    .stats{
+        margin: 180px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+    .stat{
+        width: 100%;
+        align-items: center;
+    }
+    .team{
+        margin-top: 150px;
+    }
+    .user-cards{
+        flex-direction: column;
+        gap: 60px;
+        margin-top: 50px;
+    }
+    .user-card{
+        width: 100%;
+        max-width: 100%;
+    }
+    .big-companies h2{
+        font-size: 2em;
+    }
+    .partenrs{
+        flex-direction: column;
+        width: 100%;
+        gap: 100px;
+        padding-bottom: 100px;
+    }
+    .blue-side{
+        width: 100%;
+        padding: 20% 10%;
+        align-items: center;
+        text-align: center;
+    }
+    .blue-side h3{
+        font-size: 2em;        
+    }
+    .blue-side button{
+        padding: 4% 7%;
+    }
+    .image-side{
+        display: none;
+    }
 }

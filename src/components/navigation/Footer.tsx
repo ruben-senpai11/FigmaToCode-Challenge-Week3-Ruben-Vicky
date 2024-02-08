@@ -10,13 +10,13 @@ function Footer() {
                 <div className="footer">
                     <div className="logo-and-media">
                         <h2 className="logo">Bandage</h2>
-                        <p className="user-media d-flex gap-20">
+                        <p className="footer-media d-flex gap-20">
                             <a href="#"><img src={facebook} alt="Facebook logo" /></a>
                             <a href="#"><img src={instagram} alt="Instagram logo" /></a>
                             <a href="#"><img src={twitter} alt="Twitter logo" /></a>
                         </p>
                     </div>
-                    <hr />
+                    <hr className='desktop'/>
                     <div className="links-and-news">
                         <div className="footer-links">
                             <div className="footer-column">
@@ -59,11 +59,10 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-
-                    <div className="copyright">
-                        <p className='text-gray'>Made With Love By Finland All Right Reserved</p>
-                    </div>
                 </div>
+            </div>
+            <div className="copyright">
+                <p className='text-gray'>Made With Love By <br className="mobile" /> Finland All Right Reserved</p>
             </div>
         </>
     )

@@ -3,7 +3,6 @@ import Navigation from "./components/navigation/Header"
 import Footer from "./components/navigation/Footer"
 import './App.css'
 
-
 function App() {
   return (
     <>

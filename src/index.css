@@ -1,6 +1,6 @@
 :root{
     --black: #333;
-    --blue: #21a2f2;
+    --blue: #23A6F0;
     --red: #da5131;
     --text-color: #2d2b2d;
     --text-gray: #747474;
@@ -33,4 +33,18 @@ li, p, h6, a{
     src: url('./assets/fonts/Montserrat/Montserrat-Bold.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
+}
+
+
+@media screen and (max-width: 900px) {
+
+   
+    li, p, h6, a{
+        font-size: 12px;
+        color: var(--text-color);
+        font-weight: 600;
+        line-height: 150%;
+    }
+
+
 }

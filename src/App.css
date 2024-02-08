@@ -30,7 +30,9 @@
 .cta:hover{
     background-color: #2a7cc6;
 }
-
+a:hover{
+    text-decoration: underline;
+}
 .link{
     color: inherit;
     text-decoration: none;
@@ -42,6 +44,7 @@
 .container{
     margin: 0;
     padding: 0 10%;
+    overflow: hidden;
 }
 
 
@@ -55,4 +58,31 @@
 }
 .text-white{
     color: white;
+}
+
+.desktop{
+    display: flex;
+}
+.mobile{
+    display: none;
+}
+@media screen and (max-width: 1000px) {
+
+    .container{
+        padding: 0 5%;
+    }
+
+}
+@media screen and (max-width: 900px) {
+
+    .container{
+        padding: 0 10%;
+    }
+
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+    }
 }

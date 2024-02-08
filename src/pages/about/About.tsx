@@ -1,5 +1,6 @@
 import './about.css'
 import videoCard from '../../assets/VideoCard.png'
+import mobileVideoCard from '../../assets/Video card.png'
 import UserCard from '../../components/UserCard'
 import user1 from '../../assets/team-1-user-1.jpg'
 import user2 from '../../assets/team-1-user-2.jpg'
@@ -10,8 +11,14 @@ import partner3 from '../../assets/fa-brands-3.png'
 import partner4 from '../../assets/fa-brands-4.png'
 import partner5 from '../../assets/fa-brands-5.png'
 import partner6 from '../../assets/fa-brands-6.png'
+import mobilePartner1 from '../../assets/fa-brands_hooli.svg'
+import mobilePartner2 from '../../assets/fa-brands_lyft.svg'
+import mobilePartner3 from '../../assets/fa-brands_pied-piper-hat.svg'
+import mobilePartner4 from '../../assets/fa-brands_stripe.svg'
+import mobilePartner5 from '../../assets/fa-brands_aws.svg'
+import mobilePartner6 from '../../assets/fa-brands_reddit-alien.svg'
 import workImage from '../../assets/unsplash_vjMgqUkS8q8.png'
-
+import NumberAnimation from '../../components/NumberAnimation'
 
 function About() {
   return (
@@ -23,9 +30,9 @@ function About() {
             <h1>ABOUT US</h1>
             <p className="text-gray">We know how large objects will act,
               but things on a small scale</p>
-              <button className="cta">
-                Get Quote Now
-              </button>
+            <button className="cta">
+              Get Quote Now
+            </button>
           </div>
         </section>
       </div>
@@ -40,29 +47,30 @@ function About() {
         </section>
         <section className="stats">
           <div className="stat">
-            <p className="stat-number">15K</p>
+            <p className="stat-number"><NumberAnimation finalNumber={15}></NumberAnimation>K</p>
             <p className="stat-desctipion">happy customers</p>
           </div>
           <div className="stat">
-            <p className="stat-number">150K</p>
+            <p className="stat-number"><NumberAnimation finalNumber={150}></NumberAnimation>K</p>
             <p className="stat-desctipion">Monthly visitors</p>
           </div>
           <div className="stat">
-            <p className="stat-number">15</p>
+            <p className="stat-number"><NumberAnimation finalNumber={15}></NumberAnimation></p>
             <p className="stat-desctipion">countries WorldWide</p>
           </div>
           <div className="stat">
-            <p className="stat-number">100+</p>
+            <p className="stat-number"><NumberAnimation finalNumber={100}></NumberAnimation>+</p>
             <p className="stat-desctipion">Top Patners</p>
           </div>
         </section>      
         <section className="video d-flex">
-          <img src={videoCard} alt="Video Card"/>
+          <img src={videoCard} alt="Video Card" className='desktop'/>
+          <img src={mobileVideoCard} alt="Video Card" className='mobile'/>
         </section>
         <section className="team">
           <div className="team-intro flex-column gap-20">
             <h2>Meet Our Team</h2>
-            <p className='text-gray'>Problems trying to resolve the conflict between <br /> the two major realms of Classical physics: Newtonian mechanics</p>
+            <p className='text-gray'>Problems trying to resolve the conflict between <br className='desktop' /> the two major realms of Classical physics: Newtonian mechanics</p>
           </div>
           <div className="user-cards">
             <UserCard userImageSrc={user1} userImageAlt='User 1'  />
@@ -74,14 +82,20 @@ function About() {
       <section className="big-companies">    
         <div className="container flex-column">
           <h2>Big Companies Are Here</h2>    
-          <p className='text-gray'>Problems trying to resolve the conflict between <br /> the two major realms of Classical physics: Newtonian mechanics</p>
+          <p className='text-gray'>Problems trying to resolve the conflict between <br className='desktop' /> the two major realms of Classical physics: Newtonian mechanics</p>
           <div className="partenrs d-flex">
-            <img src={partner1} alt="parter logo" />
-            <img src={partner2} alt="parter logo" />
-            <img src={partner3} alt="parter logo" />
-            <img src={partner4} alt="parter logo" />
-            <img src={partner5} alt="parter logo" />
-            <img src={partner6} alt="parter logo" />
+            <img src={partner1} alt="parter logo" className='desktop' />
+            <img src={partner2} alt="parter logo" className='desktop' />
+            <img src={partner3} alt="parter logo" className='desktop' />
+            <img src={partner4} alt="parter logo" className='desktop' />
+            <img src={partner5} alt="parter logo" className='desktop' />
+            <img src={partner6} alt="parter logo" className='desktop' />
+            <img src={mobilePartner1} alt="parter logo" className='mobile'/>
+            <img src={mobilePartner2} alt="parter logo" className='mobile'/>
+            <img src={mobilePartner3} alt="parter logo" className='mobile'/>
+            <img src={mobilePartner4} alt="parter logo" className='mobile'/>
+            <img src={mobilePartner5} alt="parter logo" className='mobile'/>
+            <img src={mobilePartner6} alt="parter logo" className='mobile'/>
           </div>
         </div>  
       </section>
@@ -89,7 +103,7 @@ function About() {
         <div className="blue-side flex-column">
           <h5 className="text-white">WORK WITH US</h5>
           <h3 className="text-white">Now Let's grow Yours</h3>
-          <p className="text-white">The gradual accumulation of information about atomic and <br />
+          <p className="text-white">The gradual accumulation of information about atomic and <br className='desktop'/>
               small-scale behavior during the first carter of the 20th  </p>
           <button>Button</button>
         </div>
