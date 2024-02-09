@@ -1,17 +1,15 @@
-import React, {ReactNode} from 'react'
+import React, { ReactNode } from "react";
 
-interface Props{
-  children: ReactNode
+interface Props {
+  children: ReactNode;
 }
 
-function ButtonCTA ({children}: Props){
+function ButtonCTA({ children }: Props) {
   return (
     <>
-        <button className="cta">
-          {children}
-        </button>
+      <button className="cta">{children}</button>
     </>
-  )
+  );
 }
 
 export default ButtonCTA;
