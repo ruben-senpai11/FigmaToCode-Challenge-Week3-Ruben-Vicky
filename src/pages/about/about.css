@@ -149,7 +149,7 @@ p {
 }
 
 .user-card:hover {
-    transform: scale(1.02);
+    transform: scale(1.05);
 }
 
 .user-card img {
@@ -261,6 +261,9 @@ p {
     width: 50%;
     object-fit: cover;
     overflow: hidden;
+}
+.image-side img{
+    transform: scale(1.01);
 }
 
 @media screen and (max-width: 1000px) {
