@@ -9,7 +9,7 @@
 
 .nav-links{
     margin-left: -10%;
-    gap: 20px;
+    gap: 22px;
 }
 .logo{
     font-size: 1.5em;
@@ -26,6 +26,10 @@
     color: #737273;
     text-decoration: none;
     font-size: 14px;
+    font-weight: 700;
+}
+.navbar li a:hover{
+    color: #23A6F0;
 }
 .nav-links{
     display: flex;
@@ -61,14 +65,22 @@ hr{
     height: 0.5px;
 }
 
+.footer .logo{
+    z-index: 1;
+}
 .footer-media{
     padding-right: 5%;
 }
 .footer-links{
     display: flex;
     justify-content: space-between;
-    gap: 30px;
     width: 100%;
+}
+.footer-columns{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    gap: 20px;
 }
 .footer-column{
     display: flex;
@@ -146,6 +158,39 @@ hr{
 
 }
 
+@media screen and (min-width: 650px) and (max-width: 999px) {
+    .footer-links{
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row!important;
+    }
+    .footer-column{
+        width: 50%;
+    }
+    .newsletter-column{
+        justify-self: flex-end;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .footer-links{
+        gap: 30px;
+    }
+    .footer-columns{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .footer-columns{
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+    .footer-column{
+    }
+}
+
 @media screen and (max-width: 900px) {
 
     .navbar{
@@ -193,7 +238,7 @@ hr{
         top: 75px;
         left: 0;
         right: 0;
-        height: 250px;
+        height:280px;
         /* width: 100%; */
         position: absolute;
         background-color: #fafafa;
@@ -231,7 +276,7 @@ hr{
         width: 90%;
     }
     .links-and-news{
-        margin-top: 80px;
+        margin-top: 50px;
     }
     .links-and-news, .footer-links{
         flex-direction: column;
@@ -242,9 +287,11 @@ hr{
     }
     .newsletter{
         max-width: 500px;
-        max-height: 80px;
+        max-height: 70px;
     }
     .newsletter input {
+        padding: 0;
+        padding-left: 5%;
         width: 100%;
     }
     .copyright{
@@ -258,4 +305,3 @@ hr{
         text-align: center;
     }
 }
-

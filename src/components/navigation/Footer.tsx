@@ -19,33 +19,37 @@ function Footer() {
                     <hr className='desktop'/>
                     <div className="links-and-news">
                         <div className="footer-links">
-                            <div className="footer-column">
-                                <h5>Company Info</h5>
-                                <a href="#">About us</a>
-                                <a href="#">Carrier</a>
-                                <a href="#">We are hiring</a>
-                                <a href="#">Blog</a>
+                            <div className="footer-columns">
+                                <div className="footer-column">
+                                    <h5>Company Info</h5>
+                                    <a href="#">About us</a>
+                                    <a href="#">Carrier</a>
+                                    <a href="#">We are hiring</a>
+                                    <a href="#">Blog</a>
+                                </div>
+                                <div className="footer-column">
+                                    <h5>Legal</h5>
+                                    <a href="#">About us</a>
+                                    <a href="#">Carrier</a>
+                                    <a href="#">We are hiring</a>
+                                    <a href="#">Blog</a>
+                                </div>
                             </div>
-                            <div className="footer-column">
-                                <h5>Legal</h5>
-                                <a href="#">About us</a>
-                                <a href="#">Carrier</a>
-                                <a href="#">We are hiring</a>
-                                <a href="#">Blog</a>
-                            </div>
-                            <div className="footer-column">
-                                <h5>Features</h5>
-                                <a href="#">Business Marketing</a>
-                                <a href="#">User Analytic</a>
-                                <a href="#">Live Chat</a>
-                                <a href="#">Unlimited Support</a>
-                            </div>
-                            <div className="footer-column">
-                                <h5>Ressources</h5>
-                                <a href="#">IOS & Android</a>
-                                <a href="#">Watch a demo</a>
-                                <a href="#">Customers</a>
-                                <a href="#">API</a>
+                            <div className="footer-columns">
+                                <div className="footer-column">
+                                    <h5>Features</h5>
+                                    <a href="#">Business Marketing</a>
+                                    <a href="#">User Analytic</a>
+                                    <a href="#">Live Chat</a>
+                                    <a href="#">Unlimited Support</a>
+                                </div>
+                                <div className="footer-column">
+                                    <h5>Ressources</h5>
+                                    <a href="#">IOS & Android</a>
+                                    <a href="#">Watch a demo</a>
+                                    <a href="#">Customers</a>
+                                    <a href="#">API</a>
+                                </div>
                             </div>
                         </div>
                         <div className="newsletter-column">

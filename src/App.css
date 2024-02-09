@@ -15,10 +15,10 @@
       transform: translateY(0);
     }
     25% {
-      transform: translateY(-2px);
+      transform: translateY(-3px);
     }
     75% {
-      transform: translateY(2px);
+      transform: translateY(3px);
     }
     100% {
       transform: translateY(0);
@@ -44,7 +44,9 @@
 }
 .cta:hover{
     background-color: #23A6F0;
-    animation: pendulum .6s ease-in-out; /* Apply animation only on hover */
+    transform: scale(1.05);
+    /* box-shadow: 0 0 4px #FFF; */
+    /* animation: pendulum .8s ease-in-out; Apply animation only on hover */
 }
 a{
     text-decoration: none;
