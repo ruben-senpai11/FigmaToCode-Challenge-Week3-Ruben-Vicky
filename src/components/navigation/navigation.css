@@ -207,7 +207,7 @@ hr{
 
     .navbar{
         margin: 0;
-        padding: 20px 5%;
+        padding: 20px 6%;
         gap: 5px;
         background-color: #fafafa;
         position: fixed;
@@ -247,7 +247,7 @@ hr{
 
     
     .nav-links{
-        top: 75px;
+        top: 60px;
         left: 0;
         right: 0;
         height:280px;
@@ -256,7 +256,7 @@ hr{
         background-color: #fafafa;
         justify-content: center;
         align-items: center; 
-        margin-top: -130%;
+        margin-top: -150%;
         transition: all 0.5s ease-in-out;
         z-index: -1;
     }

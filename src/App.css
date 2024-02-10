@@ -97,7 +97,7 @@ a:hover{
 @media screen and (max-width: 900px) {
 
     .container{
-        padding: 0 5%;
+        padding: 0 7%;
     }
     .desktop{
         display: none;
