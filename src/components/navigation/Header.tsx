@@ -8,6 +8,7 @@ import arrow_right from '../../assets/icn arrow-right .icn-xs.png'
 import menuIcon from '../../assets/icn menu .icn-xs.png'
 import shopIcon from '../../assets/icn shopping-cart .icn-xs.png'
 import searchIcon from '../../assets/icn search .icn-xs.png'
+import { useState } from 'react';
 
 
 function Header() {
