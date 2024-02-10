@@ -71,6 +71,20 @@ hr{
 .footer-media{
     padding-right: 5%;
 }
+
+.footer-media img:hover {
+    animation: spin .5s linear forwards;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(180deg);
+    }
+}
 .footer-links{
     display: flex;
     justify-content: space-between;
