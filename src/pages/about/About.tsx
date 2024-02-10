@@ -64,10 +64,14 @@ function About() {
             <p className="stat-number"><NumberAnimation finalNumber={100}></NumberAnimation>+</p>
             <p className="stat-desctipion">Top Patners</p>
           </div>
-        </section>      
+        </section>
         <section className="video d-flex">
-          <LazyLoadImage effect='blur' src={videoCard} alt="Video Card" className='desktop'/>
-          <LazyLoadImage effect='blur' src={mobileVideoCard} alt="Video Card" className='mobile'/>
+          <div className="desktop">
+            <LazyLoadImage effect='blur' src={videoCard} alt="Video Card" className='desktop' />
+          </div>
+          <div className="mobile">
+            <LazyLoadImage effect='blur' src={mobileVideoCard} alt="Video Card" className='mobile' />
+          </div>
         </section>
         <section className="team">
           <div className="team-intro flex-column gap-20">
@@ -75,38 +79,62 @@ function About() {
             <p className='text-gray'>Problems trying to resolve the conflict between <br className='desktop' /> the two major realms of Classical physics: Newtonian mechanics</p>
           </div>
           <div className="user-cards">
-            <UserCard userImageSrc={user1} userImageAlt='User 1'  />
-            <UserCard userImageSrc={user2} userImageAlt='User 2'  />
-            <UserCard userImageSrc={user3} userImageAlt='User 3'  />
+            <UserCard userImageSrc={user1} userImageAlt='User 1' />
+            <UserCard userImageSrc={user2} userImageAlt='User 2' />
+            <UserCard userImageSrc={user3} userImageAlt='User 3' />
           </div>
-        </section>            
+        </section>
       </div>
-      <section className="big-companies">    
+      <section className="big-companies">
         <div className="container flex-column">
-          <h2>Big Companies Are Here</h2>    
+          <h2>Big Companies Are Here</h2>
           <p className='text-gray'>Problems trying to resolve the conflict between <br className='desktop' /> the two major realms of Classical physics: Newtonian mechanics</p>
           <div className="partenrs d-flex">
-            <LazyLoadImage effect='blur' src={partner1} alt="parter logo" className='desktop' />
-            <LazyLoadImage effect='blur' src={partner2} alt="parter logo" className='desktop' />
-            <LazyLoadImage effect='blur' src={partner3} alt="parter logo" className='desktop' />
-            <LazyLoadImage effect='blur' src={partner4} alt="parter logo" className='desktop' />
-            <LazyLoadImage effect='blur' src={partner5} alt="parter logo" className='desktop' />
-            <LazyLoadImage effect='blur' src={partner6} alt="parter logo" className='desktop' />
-            <LazyLoadImage effect='blur' src={mobilePartner1} alt="parter logo" className='mobile'/>
-            <LazyLoadImage effect='blur' src={mobilePartner2} alt="parter logo" className='mobile'/>
-            <LazyLoadImage effect='blur' src={mobilePartner3} alt="parter logo" className='mobile'/>
-            <LazyLoadImage effect='blur' src={mobilePartner4} alt="parter logo" className='mobile'/>
-            <LazyLoadImage effect='blur' src={mobilePartner5} alt="parter logo" className='mobile'/>
-            <LazyLoadImage effect='blur' src={mobilePartner6} alt="parter logo" className='mobile'/>
+            <div className="desktop">
+              <LazyLoadImage effect='blur' src={partner1} alt="parter logo" className='desktop' />
+            </div>
+            <div className="desktop">
+              <LazyLoadImage effect='blur' src={partner2} alt="parter logo" className='desktop' />
+            </div>
+            <div className="desktop">
+              <LazyLoadImage effect='blur' src={partner3} alt="parter logo" className='desktop' />
+            </div>
+            <div className="desktop">
+              <LazyLoadImage effect='blur' src={partner4} alt="parter logo" className='desktop' />
+            </div>
+            <div className="desktop">
+              <LazyLoadImage effect='blur' src={partner5} alt="parter logo" className='desktop' />
+            </div>
+            <div className="desktop">
+              <LazyLoadImage effect='blur' src={partner6} alt="parter logo" className='desktop' />
+            </div>
+            <div className="mobile">
+              <LazyLoadImage effect='blur' src={mobilePartner1} alt="parter logo" className='mobile' />
+            </div>
+            <div className="mobile">
+              <LazyLoadImage effect='blur' src={mobilePartner2} alt="parter logo" className='mobile' />
+            </div>
+            <div className="mobile">
+              <LazyLoadImage effect='blur' src={mobilePartner3} alt="parter logo" className='mobile' />
+            </div>
+            <div className="mobile">
+              <LazyLoadImage effect='blur' src={mobilePartner4} alt="parter logo" className='mobile' />
+            </div>
+            <div className="mobile">
+              <LazyLoadImage effect='blur' src={mobilePartner5} alt="parter logo" className='mobile' />
+            </div>
+            <div className="mobile">
+              <LazyLoadImage effect='blur' src={mobilePartner6} alt="parter logo" className='mobile' />
+            </div>
           </div>
-        </div>  
+        </div>
       </section>
       <section className="work-with-us">
         <div className="blue-side flex-column">
           <h5 className="text-white">WORK WITH US</h5>
           <h3 className="text-white">Now Let's grow Yours</h3>
-          <p className="text-white">The gradual accumulation of information about atomic and <br className='desktop'/>
-              small-scale behavior during the first carter of the 20th  </p>
+          <p className="text-white">The gradual accumulation of information about atomic and <br className='desktop' />
+            small-scale behavior during the first carter of the 20th  </p>
           <button className='cta'>Button</button>
         </div>
         <div className="image-side">

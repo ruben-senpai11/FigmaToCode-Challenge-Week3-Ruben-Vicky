@@ -151,7 +151,9 @@ p {
 .user-card:hover {
     transform: scale(1.05);
 }
-
+.user-card .lazy-load-image-loaded img{
+    width: 100%;
+}
 .user-card img {
     border-radius: 2px;
 }
@@ -275,7 +277,6 @@ p {
 @media screen and (max-width: 900px) {
 
     .about-section {
-        margin-top: 5%;
         justify-content: center;
     }
 
@@ -296,7 +297,7 @@ p {
     }
 
     .about-image {
-        margin-top: -250px;
+        margin-top: -220px;
     }
 
     .about-section h1 {

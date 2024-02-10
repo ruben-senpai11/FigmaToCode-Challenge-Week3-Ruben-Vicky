@@ -24,6 +24,10 @@ function Header() {
   }
   const setNavFalse =()=>{
     setmobileNav(false)
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Optional smooth scrolling behavior
+    });
   }
 
   return (

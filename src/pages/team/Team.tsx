@@ -38,21 +38,37 @@ function Team() {
         </div>
         <div className="wwd-images">
           <div className="left-img">
-            <LazyLoadImage effect='blur' src={leftImg} alt="Dress Image" className='desktop'/>
-            <LazyLoadImage effect='blur' src={mobileLeftImg} alt="Dress Image" className='mobile'/>
+            <LazyLoadImage effect='blur' src={leftImg} alt="Dress Image" className='desktop' />
+            <LazyLoadImage effect='blur' src={mobileLeftImg} alt="Dress Image" className='mobile' />
           </div>
           <div className="four-images">
             <div className="split-2">
-              <LazyLoadImage effect='blur' src={fourImg1} alt="Dress Image" className='desktop'/>
-              <LazyLoadImage effect='blur' src={fourImg2} alt="Dress Image" className='desktop'/>
-              <LazyLoadImage effect='blur' src={mobileFourImg1} alt="Dress Image" className='mobile'/>
-              <LazyLoadImage effect='blur' src={mobileFourImg2} alt="Dress Image" className='mobile'/>
+              <div className="desktop">
+                <LazyLoadImage effect='blur' src={fourImg1} alt="Dress Image" className='desktop' />
+              </div>
+              <div className="desktop">
+                <LazyLoadImage effect='blur' src={fourImg2} alt="Dress Image" className='desktop' />
+              </div>
+              <div className="mobile">
+                <LazyLoadImage effect='blur' src={mobileFourImg1} alt="Dress Image" className='mobile' />
+              </div>
+              <div className="mobile">
+                <LazyLoadImage effect='blur' src={mobileFourImg2} alt="Dress Image" className='mobile' />
+              </div>
             </div>
             <div className="split-2">
-              <LazyLoadImage effect='blur' src={fourImg3} alt="Dress Image" className='desktop'/>
-              <LazyLoadImage effect='blur' src={fourImg4} alt="Dress Image" className='desktop'/>
-              <LazyLoadImage effect='blur' src={mobileFourImg3} alt="Dress Image" className='mobile'/>
-              <LazyLoadImage effect='blur' src={mobileFourImg4} alt="Dress Image" className='mobile'/>
+              <div className="desktop">
+                <LazyLoadImage effect='blur' src={fourImg3} alt="Dress Image" className='desktop' />
+              </div>
+              <div className="desktop">
+                <LazyLoadImage effect='blur' src={fourImg4} alt="Dress Image" className='desktop' />
+              </div>
+              <div className="mobile">
+                <LazyLoadImage effect='blur' src={mobileFourImg3} alt="Dress Image" className='mobile' />
+              </div>
+              <div className="mobile">
+                <LazyLoadImage effect='blur' src={mobileFourImg4} alt="Dress Image" className='mobile' />
+              </div>
             </div>
           </div>
         </div>
@@ -63,21 +79,21 @@ function Team() {
             <h2>Meet Our Team</h2>
           </div>
           <div className="user-cards">
-            <UserCard userImageSrc={user1} userImageAlt='Team user 1 picture'  />
-            <UserCard userImageSrc={user2} userImageAlt='Team user 2 picture'  />
-            <UserCard userImageSrc={user3} userImageAlt='Team user 3 picture'  />
+            <UserCard userImageSrc={user1} userImageAlt='Team user 1 picture' />
+            <UserCard userImageSrc={user2} userImageAlt='Team user 2 picture' />
+            <UserCard userImageSrc={user3} userImageAlt='Team user 3 picture' />
           </div>
           <div className="user-cards">
-            <UserCard userImageSrc={user4} userImageAlt='Team user 4 picture'  />
-            <UserCard userImageSrc={user5} userImageAlt='Team user 5 picture'  />
-            <UserCard userImageSrc={user6} userImageAlt='Team user 6 picture'  />
+            <UserCard userImageSrc={user4} userImageAlt='Team user 4 picture' />
+            <UserCard userImageSrc={user5} userImageAlt='Team user 5 picture' />
+            <UserCard userImageSrc={user6} userImageAlt='Team user 6 picture' />
           </div>
           <div className="user-cards">
-            <UserCard userImageSrc={user7} userImageAlt='Team user 7 picture'  />
-            <UserCard userImageSrc={user8} userImageAlt='Team user 8 picture'  />
-            <UserCard userImageSrc={user9} userImageAlt='Team user 9 picture'  />
+            <UserCard userImageSrc={user7} userImageAlt='Team user 7 picture' />
+            <UserCard userImageSrc={user8} userImageAlt='Team user 8 picture' />
+            <UserCard userImageSrc={user9} userImageAlt='Team user 9 picture' />
           </div>
-        </section>     
+        </section>
       </div>
       <section className="free-trial">
         <div className="container">
@@ -85,10 +101,10 @@ function Team() {
           <h6 className='text-gray'>Met minim Mollie non desert Alamo est sit cliquey dolor <br className="desktop" /> do met sent. RELIT official consequent.</h6>
           <button className="cta">Try it free now</button>
           <div className="freeT-media d-flex">
-              <a href="#"><LazyLoadImage effect='blur' src={twitter} alt="Twitter logo" /></a>
-              <a href="#"><LazyLoadImage effect='blur' src={facebook} alt="Facebook logo" /></a>
-              <a href="#"><LazyLoadImage effect='blur' src={instagram} alt="Instagram logo" /></a>
-              <a href="#"><LazyLoadImage effect='blur' src={linkedin} alt="Linkedin logo" /></a>
+            <a href="#"><LazyLoadImage effect='blur' src={twitter} alt="Twitter logo" /></a>
+            <a href="#"><LazyLoadImage effect='blur' src={facebook} alt="Facebook logo" /></a>
+            <a href="#"><LazyLoadImage effect='blur' src={instagram} alt="Instagram logo" /></a>
+            <a href="#"><LazyLoadImage effect='blur' src={linkedin} alt="Linkedin logo" /></a>
           </div>
         </div>
       </section>

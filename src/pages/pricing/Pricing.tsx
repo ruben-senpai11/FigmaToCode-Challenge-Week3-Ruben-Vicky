@@ -159,20 +159,43 @@ function Pricing() {
         </div>
       <section className="big-companies stickers">    
         <div className="container flex-column">
-          <h4>Trusted by over 4000 companies</h4>
-          <div className="partenrs d-flex">
-            <LazyLoadImage effect='blur' src={partner1} alt="parter logo" className='desktop' />
-            <LazyLoadImage effect='blur' src={partner2} alt="parter logo" className='desktop' />
-            <LazyLoadImage effect='blur' src={partner3} alt="parter logo" className='desktop' />
-            <LazyLoadImage effect='blur' src={partner4} alt="parter logo" className='desktop' />
-            <LazyLoadImage effect='blur' src={partner5} alt="parter logo" className='desktop' />
-            <LazyLoadImage effect='blur' src={partner6} alt="parter logo" className='desktop' />
-            <LazyLoadImage effect='blur' src={mobilePartner1} alt="parter logo" className='mobile'/>
-            <LazyLoadImage effect='blur' src={mobilePartner2} alt="parter logo" className='mobile'/>
-            <LazyLoadImage effect='blur' src={mobilePartner3} alt="parter logo" className='mobile'/>
-            <LazyLoadImage effect='blur' src={mobilePartner4} alt="parter logo" className='mobile'/>
-            <LazyLoadImage effect='blur' src={mobilePartner5} alt="parter logo" className='mobile'/>
-            <LazyLoadImage effect='blur' src={mobilePartner6} alt="parter logo" className='mobile'/>
+          <h4>Trusted by over 4000 companies</h4> <div className="partenrs d-flex">
+            <div className="desktop">
+              <LazyLoadImage effect='blur' src={partner1} alt="parter logo" className='desktop' />
+            </div>
+            <div className="desktop">
+              <LazyLoadImage effect='blur' src={partner2} alt="parter logo" className='desktop' />
+            </div>
+            <div className="desktop">
+              <LazyLoadImage effect='blur' src={partner3} alt="parter logo" className='desktop' />
+            </div>
+            <div className="desktop">
+              <LazyLoadImage effect='blur' src={partner4} alt="parter logo" className='desktop' />
+            </div>
+            <div className="desktop">
+              <LazyLoadImage effect='blur' src={partner5} alt="parter logo" className='desktop' />
+            </div>
+            <div className="desktop">
+              <LazyLoadImage effect='blur' src={partner6} alt="parter logo" className='desktop' />
+            </div>
+            <div className="mobile">
+              <LazyLoadImage effect='blur' src={mobilePartner1} alt="parter logo" className='mobile' />
+            </div>
+            <div className="mobile">
+              <LazyLoadImage effect='blur' src={mobilePartner2} alt="parter logo" className='mobile' />
+            </div>
+            <div className="mobile">
+              <LazyLoadImage effect='blur' src={mobilePartner3} alt="parter logo" className='mobile' />
+            </div>
+            <div className="mobile">
+              <LazyLoadImage effect='blur' src={mobilePartner4} alt="parter logo" className='mobile' />
+            </div>
+            <div className="mobile">
+              <LazyLoadImage effect='blur' src={mobilePartner5} alt="parter logo" className='mobile' />
+            </div>
+            <div className="mobile">
+              <LazyLoadImage effect='blur' src={mobilePartner6} alt="parter logo" className='mobile' />
+            </div>
           </div>
         </div>  
       </section>

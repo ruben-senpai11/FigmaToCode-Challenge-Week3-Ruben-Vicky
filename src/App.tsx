@@ -3,6 +3,7 @@ import Footer from "./components/navigation/Footer"
 import './App.css'
 
 function App() {
+  
   return (
     <>
       <Navigation></Navigation>

@@ -73,7 +73,7 @@ hr{
 }
 
 .footer-media img:hover {
-    animation: spin .5s linear forwards;
+    animation: spin .4s linear forwards;
 }
 
 @keyframes spin {

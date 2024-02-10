@@ -39,8 +39,8 @@
     height: 100%;
 }
 .four-images img{
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
 }
 .split-2{
     display: flex;
@@ -81,9 +81,6 @@
     .what-we-do{
         padding-top: 120px;
     }
-    .what-we-do h1{
-        
-    }
     .wwd-images{
         flex-direction: column;
         width: 100%;
@@ -92,8 +89,16 @@
     .left-img, .four-images{
         width: 100%;
     }
+    .split-2{
+        gap: 7px;
+        width: 100%;
+        height: 100%;
+    }
+    .four-images .mobile, .lazy-load-image-loaded {
+        width: 100%;
+    }
     .four-images img{
-        width: 50%;
+        width: 100%; 
         height: 100%;
     }
     .free-trial .container{
