@@ -9,6 +9,8 @@ import contactImg1 from '../../assets/icn settings .icn-xl.svg'
 import contactImg2 from '../../assets/icn settings .icn-xl (1).svg'
 import contactImg3 from '../../assets/icn settings .icn-xl (2).svg'
 import arrow2 from '../../assets/Arrow 2.svg'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function Contact() {
   return (
@@ -25,10 +27,10 @@ function Contact() {
               <p>Fax : +451 215 <NumberAnimation finalNumber={215} /></p>
             </div>
             <div className="freeT-media d-flex gap-20">
-              <a href="#"><img src={twitter} alt="Twitter logo" /></a>
-              <a href="#"><img src={facebook} alt="Facebook logo" /></a>
-              <a href="#"><img src={instagram} alt="Instagram logo" /></a>
-              <a href="#"><img src={linkedin} alt="Linkedin logo" /></a>
+              <a href="#"><LazyLoadImage effect='blur' src={twitter} alt="Twitter logo" /></a>
+              <a href="#"><LazyLoadImage effect='blur' src={facebook} alt="Facebook logo" /></a>
+              <a href="#"><LazyLoadImage effect='blur' src={instagram} alt="Instagram logo" /></a>
+              <a href="#"><LazyLoadImage effect='blur' src={linkedin} alt="Linkedin logo" /></a>
             </div>
           </div>
         </section>
@@ -46,7 +48,7 @@ function Contact() {
         </section >
         <section className="talk">
           <div className="talk-arrow">
-            <img src={arrow2} alt="pointing down arrow" />
+            <LazyLoadImage effect='blur' src={arrow2} alt="pointing down arrow" />
           </div>
           <h5>WE Can't WAIT TO MEET YOU</h5>
           <h2>Let's Talk</h2>

@@ -19,6 +19,8 @@ import mobilePartner5 from '../../assets/fa-brands_aws.svg'
 import mobilePartner6 from '../../assets/fa-brands_reddit-alien.svg'
 import workImage from '../../assets/unsplash_vjMgqUkS8q8.png'
 import NumberAnimation from '../../components/NumberAnimation'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function About() {
   return (
@@ -64,8 +66,8 @@ function About() {
           </div>
         </section>      
         <section className="video d-flex">
-          <img src={videoCard} alt="Video Card" className='desktop'/>
-          <img src={mobileVideoCard} alt="Video Card" className='mobile'/>
+          <LazyLoadImage effect='blur' src={videoCard} alt="Video Card" className='desktop'/>
+          <LazyLoadImage effect='blur' src={mobileVideoCard} alt="Video Card" className='mobile'/>
         </section>
         <section className="team">
           <div className="team-intro flex-column gap-20">
@@ -84,18 +86,18 @@ function About() {
           <h2>Big Companies Are Here</h2>    
           <p className='text-gray'>Problems trying to resolve the conflict between <br className='desktop' /> the two major realms of Classical physics: Newtonian mechanics</p>
           <div className="partenrs d-flex">
-            <img src={partner1} alt="parter logo" className='desktop' />
-            <img src={partner2} alt="parter logo" className='desktop' />
-            <img src={partner3} alt="parter logo" className='desktop' />
-            <img src={partner4} alt="parter logo" className='desktop' />
-            <img src={partner5} alt="parter logo" className='desktop' />
-            <img src={partner6} alt="parter logo" className='desktop' />
-            <img src={mobilePartner1} alt="parter logo" className='mobile'/>
-            <img src={mobilePartner2} alt="parter logo" className='mobile'/>
-            <img src={mobilePartner3} alt="parter logo" className='mobile'/>
-            <img src={mobilePartner4} alt="parter logo" className='mobile'/>
-            <img src={mobilePartner5} alt="parter logo" className='mobile'/>
-            <img src={mobilePartner6} alt="parter logo" className='mobile'/>
+            <LazyLoadImage effect='blur' src={partner1} alt="parter logo" className='desktop' />
+            <LazyLoadImage effect='blur' src={partner2} alt="parter logo" className='desktop' />
+            <LazyLoadImage effect='blur' src={partner3} alt="parter logo" className='desktop' />
+            <LazyLoadImage effect='blur' src={partner4} alt="parter logo" className='desktop' />
+            <LazyLoadImage effect='blur' src={partner5} alt="parter logo" className='desktop' />
+            <LazyLoadImage effect='blur' src={partner6} alt="parter logo" className='desktop' />
+            <LazyLoadImage effect='blur' src={mobilePartner1} alt="parter logo" className='mobile'/>
+            <LazyLoadImage effect='blur' src={mobilePartner2} alt="parter logo" className='mobile'/>
+            <LazyLoadImage effect='blur' src={mobilePartner3} alt="parter logo" className='mobile'/>
+            <LazyLoadImage effect='blur' src={mobilePartner4} alt="parter logo" className='mobile'/>
+            <LazyLoadImage effect='blur' src={mobilePartner5} alt="parter logo" className='mobile'/>
+            <LazyLoadImage effect='blur' src={mobilePartner6} alt="parter logo" className='mobile'/>
           </div>
         </div>  
       </section>
@@ -108,7 +110,7 @@ function About() {
           <button className='cta'>Button</button>
         </div>
         <div className="image-side">
-          <img src={workImage} alt="Conciliant woman" />
+          <LazyLoadImage effect='blur' src={workImage} alt="Conciliant woman" />
         </div>
       </section>
     </>

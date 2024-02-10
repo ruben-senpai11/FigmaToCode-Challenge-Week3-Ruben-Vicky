@@ -19,6 +19,8 @@ import mobilePartner3 from '../../assets/fa-brands_pied-piper-hat.svg'
 import mobilePartner4 from '../../assets/fa-brands_stripe.svg'
 import mobilePartner5 from '../../assets/fa-brands_aws.svg'
 import mobilePartner6 from '../../assets/fa-brands_reddit-alien.svg'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function Pricing() {
   return (
@@ -30,7 +32,7 @@ function Pricing() {
             <h1 className="section1h1">Simple Pricing</h1>
             <div className="sectionDiv">
               <p className="sectionHBold">Home</p>
-              <img src={arrowR} alt="" />
+              <LazyLoadImage effect='blur' src={arrowR} alt="" />
               <p className="sectionBColorGrey">Pricing</p>
             </div>
           </div>
@@ -43,7 +45,7 @@ function Pricing() {
             <div className="sectionDiv comparativePricing">
               <p className="pSection">Monthly</p>
               <div className="pSectionImg">
-                <img src={toggle} alt="" />
+                <LazyLoadImage effect='blur' src={toggle} alt="" />
               </div>
 
               <p className="pSection">Yearly</p>
@@ -64,23 +66,23 @@ function Pricing() {
             </div>
             <div className="miniflexText">
               <div>
-                <img src={tick} alt="" />
+                <LazyLoadImage effect='blur' src={tick} alt="" />
                 <p>Unlimited product updates</p>
               </div>
               <div>
-                <img src={tick} alt="" />
+                <LazyLoadImage effect='blur' src={tick} alt="" />
                 <p>Unlimited product updates</p>
               </div>
               <div>
-                <img src={tick} alt="" />
+                <LazyLoadImage effect='blur' src={tick} alt="" />
                 <p>Unlimited product updates</p>
               </div>
               <div>
-                <img src={graytick} alt="" />
+                <LazyLoadImage effect='blur' src={graytick} alt="" />
                 <p>Unlimited product updates</p>
               </div>
               <div>
-                <img src={graytick} alt="" />
+                <LazyLoadImage effect='blur' src={graytick} alt="" />
                 <p>Unlimited product updates</p>
               </div>
               <div className="priceBtn blueBtn">Try For Free</div>
@@ -98,23 +100,23 @@ function Pricing() {
             </div>
             <div className="miniflexText">
               <div>
-                <img src={tick} alt="" />
+                <LazyLoadImage effect='blur' src={tick} alt="" />
                 <p>Unlimited product updates</p>
               </div>
               <div>
-                <img src={tick} alt="" />
+                <LazyLoadImage effect='blur' src={tick} alt="" />
                 <p>Unlimited product updates</p>
               </div>
               <div>
-                <img src={tick} alt="" />
+                <LazyLoadImage effect='blur' src={tick} alt="" />
                 <p>Unlimited product updates</p>
               </div>
               <div>
-                <img src={graytick} alt="" />
+                <LazyLoadImage effect='blur' src={graytick} alt="" />
                 <p>Unlimited product updates</p>
               </div>
               <div>
-                <img src={graytick} alt="" />
+                <LazyLoadImage effect='blur' src={graytick} alt="" />
                 <p>Unlimited product updates</p>
               </div>
               <div className="priceBtn">Try For Free</div>
@@ -132,23 +134,23 @@ function Pricing() {
             </div>
             <div className="miniflexText">
               <div>
-                <img src={tick} alt="" />
+                <LazyLoadImage effect='blur' src={tick} alt="" />
                 <p>Unlimited product updates</p>
               </div>
               <div>
-                <img src={tick} alt="" />
+                <LazyLoadImage effect='blur' src={tick} alt="" />
                 <p>Unlimited product updates</p>
               </div>
               <div>
-                <img src={tick} alt="" />
+                <LazyLoadImage effect='blur' src={tick} alt="" />
                 <p>Unlimited product updates</p>
               </div>
               <div>
-                <img src={graytick} alt="" />
+                <LazyLoadImage effect='blur' src={graytick} alt="" />
                 <p>Unlimited product updates</p>
               </div>
               <div>
-                <img src={graytick} alt="" />
+                <LazyLoadImage effect='blur' src={graytick} alt="" />
                 <p>Unlimited product updates</p>
               </div>
               <div className="priceBtn">Try For Free</div>
@@ -159,18 +161,18 @@ function Pricing() {
         <div className="container flex-column">
           <h4>Trusted by over 4000 companies</h4>
           <div className="partenrs d-flex">
-            <img src={partner1} alt="parter logo" className='desktop' />
-            <img src={partner2} alt="parter logo" className='desktop' />
-            <img src={partner3} alt="parter logo" className='desktop' />
-            <img src={partner4} alt="parter logo" className='desktop' />
-            <img src={partner5} alt="parter logo" className='desktop' />
-            <img src={partner6} alt="parter logo" className='desktop' />
-            <img src={mobilePartner1} alt="parter logo" className='mobile'/>
-            <img src={mobilePartner2} alt="parter logo" className='mobile'/>
-            <img src={mobilePartner3} alt="parter logo" className='mobile'/>
-            <img src={mobilePartner4} alt="parter logo" className='mobile'/>
-            <img src={mobilePartner5} alt="parter logo" className='mobile'/>
-            <img src={mobilePartner6} alt="parter logo" className='mobile'/>
+            <LazyLoadImage effect='blur' src={partner1} alt="parter logo" className='desktop' />
+            <LazyLoadImage effect='blur' src={partner2} alt="parter logo" className='desktop' />
+            <LazyLoadImage effect='blur' src={partner3} alt="parter logo" className='desktop' />
+            <LazyLoadImage effect='blur' src={partner4} alt="parter logo" className='desktop' />
+            <LazyLoadImage effect='blur' src={partner5} alt="parter logo" className='desktop' />
+            <LazyLoadImage effect='blur' src={partner6} alt="parter logo" className='desktop' />
+            <LazyLoadImage effect='blur' src={mobilePartner1} alt="parter logo" className='mobile'/>
+            <LazyLoadImage effect='blur' src={mobilePartner2} alt="parter logo" className='mobile'/>
+            <LazyLoadImage effect='blur' src={mobilePartner3} alt="parter logo" className='mobile'/>
+            <LazyLoadImage effect='blur' src={mobilePartner4} alt="parter logo" className='mobile'/>
+            <LazyLoadImage effect='blur' src={mobilePartner5} alt="parter logo" className='mobile'/>
+            <LazyLoadImage effect='blur' src={mobilePartner6} alt="parter logo" className='mobile'/>
           </div>
         </div>  
       </section>
@@ -186,7 +188,7 @@ function Pricing() {
           <div className="faqsText">
             <div className="priceSection">
               <div className="FaqImg">
-                <img src={arrowR} alt="" />
+                <LazyLoadImage effect='blur' src={arrowR} alt="" />
               </div>
               <div className="priceminiSection">
                 <h5>the quick fox jumps over the lazy dog</h5>
@@ -199,7 +201,7 @@ function Pricing() {
             </div>
             <div className="priceSection">
               <div className="FaqImg">
-                <img src={arrowR} alt="" />
+                <LazyLoadImage effect='blur' src={arrowR} alt="" />
               </div>
               <div className="priceminiSection">
                 <h5>the quick fox jumps over the lazy dog</h5>
@@ -212,7 +214,7 @@ function Pricing() {
             </div>
             <div className="priceSection">
               <div className="FaqImg">
-                <img src={arrowR} alt="" />
+                <LazyLoadImage effect='blur' src={arrowR} alt="" />
               </div>
               <div className="priceminiSection">
                 <h5>the quick fox jumps over the lazy dog</h5>
@@ -225,7 +227,7 @@ function Pricing() {
             </div>
             <div className="priceSection">
               <div className="FaqImg">
-                <img src={arrowR} alt="" />
+                <LazyLoadImage effect='blur' src={arrowR} alt="" />
               </div>
               <div className="priceminiSection">
                 <h5>the quick fox jumps over the lazy dog</h5>
@@ -238,7 +240,7 @@ function Pricing() {
             </div>
             <div className="priceSection">
               <div className="FaqImg">
-                <img src={arrowR} alt="" />
+                <LazyLoadImage effect='blur' src={arrowR} alt="" />
               </div>
               <div className="priceminiSection">
                 <h5>the quick fox jumps over the lazy dog</h5>
@@ -251,7 +253,7 @@ function Pricing() {
             </div>
             <div className="priceSection">
               <div className="FaqImg">
-                <img src={arrowR} alt="" />
+                <LazyLoadImage effect='blur' src={arrowR} alt="" />
               </div>
               <div className="priceminiSection">
                 <h5>the quick fox jumps over the lazy dog</h5>
@@ -272,10 +274,10 @@ function Pricing() {
             <h6 className='text-gray'>Met minim Mollie non desert Alamo est sit cliquey dolor <br className="desktop" /> do met sent. RELIT official consequent.</h6>
             <button className="cta">Try it free now</button>
             <div className="freeT-media d-flex">
-                <a href="#"><img src={twitter} alt="Twitter logo" /></a>
-                <a href="#"><img src={facebook} alt="Facebook logo" /></a>
-                <a href="#"><img src={instagram} alt="Instagram logo" /></a>
-                <a href="#"><img src={linkedin} alt="Linkedin logo" /></a>
+                <a href="#"><LazyLoadImage effect='blur' src={twitter} alt="Twitter logo" /></a>
+                <a href="#"><LazyLoadImage effect='blur' src={facebook} alt="Facebook logo" /></a>
+                <a href="#"><LazyLoadImage effect='blur' src={instagram} alt="Instagram logo" /></a>
+                <a href="#"><LazyLoadImage effect='blur' src={linkedin} alt="Linkedin logo" /></a>
             </div>
           </div>
         </section>     

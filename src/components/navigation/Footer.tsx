@@ -2,6 +2,8 @@ import facebook from '../../assets/facebook.png'
 import instagram from '../../assets/Vector.png'
 import twitter from '../../assets/Vector (1).png'
 import "./navigation.css"
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function Footer() {
     return (
@@ -11,9 +13,9 @@ function Footer() {
                     <div className="logo-and-media">
                         <h2 className="logo">Bandage</h2>
                         <p className="footer-media d-flex gap-20">
-                            <a href="#"><img src={facebook} alt="Facebook logo" /></a>
-                            <a href="#"><img src={instagram} alt="Instagram logo" /></a>
-                            <a href="#"><img src={twitter} alt="Twitter logo" /></a>
+                            <a href="#"><LazyLoadImage effect='blur' src={facebook} alt="Facebook logo" /></a>
+                            <a href="#"><LazyLoadImage effect='blur' src={instagram} alt="Instagram logo" /></a>
+                            <a href="#"><LazyLoadImage effect='blur' src={twitter} alt="Twitter logo" /></a>
                         </p>
                     </div>
                     <hr className='desktop'/>

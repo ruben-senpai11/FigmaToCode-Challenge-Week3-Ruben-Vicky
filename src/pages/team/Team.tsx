@@ -24,6 +24,8 @@ import facebook from '../../assets/logos_facebook.png'
 import instagram from '../../assets/ant-design_instagram-outlined.svg'
 import twitter from '../../assets/logos_twitter.svg'
 import linkedin from '../../assets/logos_linkedin-icon.svg'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function Team() {
   return (
@@ -32,25 +34,25 @@ function Team() {
         <div className="container">
           <h5 className='text-gray'>WHAT WE DO</h5>
           <h1>Innovation tailored for you</h1>
-          <p className="breadcum d-flex"><a href='#' className='text-bold'>Home</a> <img src={rightArrow} alt=">" /> <span className="text-gray">Team</span></p>
+          <p className="breadcum d-flex"><a href='#' className='text-bold'>Home</a> <LazyLoadImage effect='blur' src={rightArrow} alt=">" /> <span className="text-gray">Team</span></p>
         </div>
         <div className="wwd-images">
           <div className="left-img">
-            <img src={leftImg} alt="Dress Image" className='desktop'/>
-            <img src={mobileLeftImg} alt="Dress Image" className='mobile'/>
+            <LazyLoadImage effect='blur' src={leftImg} alt="Dress Image" className='desktop'/>
+            <LazyLoadImage effect='blur' src={mobileLeftImg} alt="Dress Image" className='mobile'/>
           </div>
           <div className="four-images">
             <div className="split-2">
-              <img src={fourImg1} alt="Dress Image" className='desktop'/>
-              <img src={fourImg2} alt="Dress Image" className='desktop'/>
-              <img src={mobileFourImg1} alt="Dress Image" className='mobile'/>
-              <img src={mobileFourImg2} alt="Dress Image" className='mobile'/>
+              <LazyLoadImage effect='blur' src={fourImg1} alt="Dress Image" className='desktop'/>
+              <LazyLoadImage effect='blur' src={fourImg2} alt="Dress Image" className='desktop'/>
+              <LazyLoadImage effect='blur' src={mobileFourImg1} alt="Dress Image" className='mobile'/>
+              <LazyLoadImage effect='blur' src={mobileFourImg2} alt="Dress Image" className='mobile'/>
             </div>
             <div className="split-2">
-              <img src={fourImg3} alt="Dress Image" className='desktop'/>
-              <img src={fourImg4} alt="Dress Image" className='desktop'/>
-              <img src={mobileFourImg3} alt="Dress Image" className='mobile'/>
-              <img src={mobileFourImg4} alt="Dress Image" className='mobile'/>
+              <LazyLoadImage effect='blur' src={fourImg3} alt="Dress Image" className='desktop'/>
+              <LazyLoadImage effect='blur' src={fourImg4} alt="Dress Image" className='desktop'/>
+              <LazyLoadImage effect='blur' src={mobileFourImg3} alt="Dress Image" className='mobile'/>
+              <LazyLoadImage effect='blur' src={mobileFourImg4} alt="Dress Image" className='mobile'/>
             </div>
           </div>
         </div>
@@ -83,10 +85,10 @@ function Team() {
           <h6 className='text-gray'>Met minim Mollie non desert Alamo est sit cliquey dolor <br className="desktop" /> do met sent. RELIT official consequent.</h6>
           <button className="cta">Try it free now</button>
           <div className="freeT-media d-flex">
-              <a href="#"><img src={twitter} alt="Twitter logo" /></a>
-              <a href="#"><img src={facebook} alt="Facebook logo" /></a>
-              <a href="#"><img src={instagram} alt="Instagram logo" /></a>
-              <a href="#"><img src={linkedin} alt="Linkedin logo" /></a>
+              <a href="#"><LazyLoadImage effect='blur' src={twitter} alt="Twitter logo" /></a>
+              <a href="#"><LazyLoadImage effect='blur' src={facebook} alt="Facebook logo" /></a>
+              <a href="#"><LazyLoadImage effect='blur' src={instagram} alt="Instagram logo" /></a>
+              <a href="#"><LazyLoadImage effect='blur' src={linkedin} alt="Linkedin logo" /></a>
           </div>
         </div>
       </section>
