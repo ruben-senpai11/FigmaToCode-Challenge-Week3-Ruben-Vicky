@@ -3,19 +3,10 @@ import arrowR from "../../assets/arrowR.png";
 import toggle from "../../assets/toggle.png";
 import tick from "../../assets/tick.png";
 import graytick from "../../assets/greyTick.png";
-import sticker1 from "../../assets/sticker1.png";
-import sticker2 from "../../assets/sticker2.png";
-import sticker3 from "../../assets/sticker3.png";
-import sticker4 from "../../assets/sticker4.png";
-import sticker5 from "../../assets/sticker5.png";
-import sticker6 from "../../assets/sticker6.png";
 import facebook from '../../assets/logos_facebook.png'
 import instagram from '../../assets/ant-design_instagram-outlined.svg'
 import twitter from '../../assets/logos_twitter.svg'
 import linkedin from '../../assets/logos_linkedin-icon.svg'
-import blueTwitter from "../../assets/blueTwitter.png";
-import blueInstagram from "../../assets/blueInstagram.png";
-import bluefacebook from "../../assets/bluefacebook.png";
 import partner1 from '../../assets/fa-brands-1.png'
 import partner2 from '../../assets/fa-brands-2.png'
 import partner3 from '../../assets/fa-brands-3.png'
@@ -28,9 +19,6 @@ import mobilePartner3 from '../../assets/fa-brands_pied-piper-hat.svg'
 import mobilePartner4 from '../../assets/fa-brands_stripe.svg'
 import mobilePartner5 from '../../assets/fa-brands_aws.svg'
 import mobilePartner6 from '../../assets/fa-brands_reddit-alien.svg'
-// import shopping from "../../assets/shopping.png"
-// import menu from "../../assets/menu.png";
-// import search from "../../assets/search.png";
 
 function Pricing() {
   return (

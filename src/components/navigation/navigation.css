@@ -187,8 +187,6 @@ hr{
         width: 100%;
         gap: 20px;
     }
-    .footer-column{
-    }
 }
 
 @media screen and (max-width: 900px) {
