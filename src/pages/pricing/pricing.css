@@ -453,3 +453,11 @@
     }
   } */
   
+  @media (max-width: 475px) {
+    .ContainerPricing {
+      max-width: 100%;
+    }
+    .pricingFlexContainers{
+      padding: 3rem 0;
+    }
+  }
