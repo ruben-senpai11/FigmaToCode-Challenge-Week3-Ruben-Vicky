@@ -154,6 +154,9 @@ p {
 .user-card .lazy-load-image-loaded img{
     width: 100%;
 }
+.user-card-img{
+    min-height: 100px;
+}
 .user-card img {
     border-radius: 2px;
 }
@@ -217,6 +220,7 @@ p {
 .work-with-us {
     display: flex;
     justify-content: space-between;
+    min-height: 600px;
 }
 
 .blue-side {
@@ -345,7 +349,6 @@ p {
         width: 100%;
         max-width: 100%;
     }
-
     .big-companies h2 {
         font-size: 2em;
     }
@@ -357,6 +360,9 @@ p {
         padding-bottom: 100px;
     }
 
+    .work-with-us {
+        min-height: 10px;
+    }
     .blue-side {
         width: 100%;
         padding: 20% 10%;

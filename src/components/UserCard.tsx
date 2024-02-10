@@ -13,7 +13,7 @@ function UserCard ({userImageSrc, userImageAlt}:Props){
     return(
         <>        
             <div className="user-card flex-column gap-20">
-                <LazyLoadImage src={userImageSrc} alt={userImageAlt} effect="blur" />
+                <LazyLoadImage src={userImageSrc} alt={userImageAlt} className='user-card-img' effect="blur" />
                 <p className="name">Username</p>
                 <p className="profession text-gray">Profession</p>
                 <div className="user-media d-flex gap-20">

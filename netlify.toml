@@ -1,4 +1,0 @@
-[build]
-  command = "npm install && npm install react-router-dom && npm install react-intersection-observer && npm run build"
-  functions = "functions"
-  publish = "build"
