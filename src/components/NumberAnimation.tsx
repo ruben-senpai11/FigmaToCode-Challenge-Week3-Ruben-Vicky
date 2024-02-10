@@ -1,7 +1,11 @@
 import { useEffect, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 
-const ScrollNumberAnimation = ({ finalNumber }) => {
+interface Props{
+  finalNumber: number
+}
+
+const ScrollNumberAnimation = ({ finalNumber }: Props) => {
   const [count, setCount] = useState(0);
   const [ref, inView] = useInView({ triggerOnce: true });
 
