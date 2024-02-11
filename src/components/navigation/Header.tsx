@@ -43,7 +43,7 @@ function Header() {
             <li onClick={setNavFalse}><Link to="/team">Team</Link></li>
           </ul>
           <div className="right-nav-links">
-            <a href="" className='link'>Login</a>
+            <a href="#" className='link'>Login</a>
             <button className="cta">
               Become a member
               <img src={arrow_right} alt="" />

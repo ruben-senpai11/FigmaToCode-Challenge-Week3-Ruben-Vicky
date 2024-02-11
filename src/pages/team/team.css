@@ -11,7 +11,11 @@
     font-size: 2.5em;
 }
 .breadcum{
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center!important;
+    padding: 0;
     gap: 10px;
 }
 .wwd-images{
@@ -75,6 +79,20 @@
 }
 .freeT-media{
     gap: 30px;
+}
+
+.freeT-media img:hover {
+    animation: spin .4s linear forwards;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(180deg);
+    }
 }
 
 @media screen and (max-width: 900px) {
