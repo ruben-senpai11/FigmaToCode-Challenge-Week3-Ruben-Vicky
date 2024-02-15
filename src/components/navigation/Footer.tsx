@@ -40,17 +40,17 @@ function Footer() {
                             <div className="footer-columns">
                                 <div className="footer-column">
                                     <h5>Features</h5>
-                                    <a href="#">Business Marketing</a>
-                                    <a href="#">User Analytic</a>
-                                    <a href="#">Live Chat</a>
-                                    <a href="#">Unlimited Support</a>
+                                    <p className='text-gray'>Business Marketing</p>
+                                    <p className='text-gray'>User Analytic</p>
+                                    <p className='text-gray'>Live Chat</p>
+                                    <p className='text-gray'>Unlimited Support</p>
                                 </div>
                                 <div className="footer-column">
                                     <h5>Ressources</h5>
-                                    <a href="#">IOS & Android</a>
-                                    <a href="#">Watch a demo</a>
-                                    <a href="#">Customers</a>
-                                    <a href="#">API</a>
+                                    <p className='text-gray'>IOS & Android</p>
+                                    <p className='text-gray'>Watch a demo</p>
+                                    <p className='text-gray'>Customers</p>
+                                    <p className='text-gray'>API</p>
                                 </div>
                             </div>
                         </div>

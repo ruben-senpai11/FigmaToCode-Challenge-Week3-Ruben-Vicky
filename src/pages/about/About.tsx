@@ -37,8 +37,8 @@ function About() {
             </button>
           </div>
         </section>
+        <div className="about-image"></div>
       </div>
-      <div className="about-image"></div>
       <div className="container">
         <section className="problem-trying flex-column">
           <p>Problems trying</p>

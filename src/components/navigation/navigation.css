@@ -317,3 +317,15 @@ hr{
         text-align: center;
     }
 }
+
+
+@media screen and (min-width: 1440px) {
+    .navbar, .copyright{
+        padding: 0 10%;
+        margin: 25px auto;
+        max-width: 1440px;   
+    }
+    .copyright{
+        margin: 0 auto;
+    }
+}

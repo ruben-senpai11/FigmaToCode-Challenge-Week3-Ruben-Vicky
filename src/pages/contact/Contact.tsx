@@ -34,8 +34,8 @@ function Contact() {
             </div>
           </div>
         </section>
-      </div>
       <div className="about-image contact"></div>
+      </div>
       <div className="container desk-container">
         <section className="location flex-column">
           <h5>Visit our office</h5>

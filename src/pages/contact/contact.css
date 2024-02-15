@@ -39,12 +39,6 @@
     padding: 80px 50px;
     background-color: white;
 }
-.contact-card:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 25px #23A6F0;
-    transition: all 0.2s ease-in-out;
-
-}
 .contact-card img{
     width: 35%;
 }
