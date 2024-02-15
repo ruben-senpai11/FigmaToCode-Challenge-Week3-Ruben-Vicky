@@ -34,7 +34,7 @@ function Team() {
         <div className="container">
           <h5 className='text-gray'>WHAT WE DO</h5>
           <h1>Innovation tailored for you</h1>
-          <p className="breadcum"><a href='#' className='text-bold'>Home</a> <img src={rightArrow} alt=">" /> <span className="text-gray">Team</span></p>
+          <p className="breadcum"><a href='/' className='text-bold'>Home</a> <img src={rightArrow} alt=">" /> <span className="text-gray">Team</span></p>
         </div>
         <div className="wwd-images">
           <div className="left-img">

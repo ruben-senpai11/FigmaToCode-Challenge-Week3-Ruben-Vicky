@@ -24,6 +24,8 @@
     justify-content: space-between;
     align-items: center;
     gap: 7px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .left-img{
     width: 49%;
@@ -32,7 +34,7 @@
     width: 51%;
 }
 .left-img img{
-    width: 100%;
+    width: 100%; 
     object-fit: cover;
 }
 .four-images{

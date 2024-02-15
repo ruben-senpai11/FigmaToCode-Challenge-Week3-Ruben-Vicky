@@ -112,7 +112,7 @@
   .miniflexTall {
     display: flex;
     align-items: center;
-    padding: 4rem 0;
+    padding: 4rem 0!important;
     flex-direction: column;
     background-color: rgba(37, 43, 66, 1);
   }
@@ -157,8 +157,8 @@
     gap: 1rem;
   }
   .miniflexText div {
-    align-items: center;
     display: flex;
+    align-items: center;
     gap: 1rem;
   }
   .miniflexText p {
@@ -419,40 +419,19 @@
     }
 }
 
-  /* .miniflexTall {
-    padding: 2.1rem;
+@media (max-width: 1024px) {
+  .miniflexText div{
+    justify-content: space-between;
+    gap: 15px;
   }
-  @media (min-width: 475px) {
-    .ContainerPricing {
-      max-width: 475px;
-    }
+  .miniflexText div .lazy-load-image-loaded{
+    width: 20%;
   }
-  @media (min-width: 640px) {
-    .ContainerPricing {
-      max-width: 640px;
-    }
+  .miniflexText div p{
+    width: max-content;
   }
-  @media (min-width: 768px) {
-    .ContainerPricing {
-      max-width: 768px;
-    }
-  }
-  @media (min-width: 1024px) {
-    .ContainerPricing {
-      max-width: 1024px;
-    }
-  }
-  @media (min-width: 1280px) {
-    .ContainerPricing {
-      max-width: 1280px;
-    }
-  }
-  @media (min-width: 1536px) {
-    .ContainerPricing {
-      max-width: 1536px;
-    }
-  } */
-  
+}
+
   @media (max-width: 475px) {
     .ContainerPricing {
       max-width: 100%;

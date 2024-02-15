@@ -1,5 +1,6 @@
 import "./pricing.css";
 import arrowR from "../../assets/arrowR.png";
+import rightArrow from '../../assets/icn arrow-right icn-xs.svg'
 import toggle from "../../assets/toggle.png";
 import tick from "../../assets/tick.png";
 import graytick from "../../assets/greyTick.png";
@@ -30,11 +31,7 @@ function Pricing() {
           <div className="sectionB">
             <p className="pSection desktop">Pricing</p>
             <h1 className="section1h1">Simple Pricing</h1>
-            <div className="sectionDiv">
-              <p className="sectionHBold">Home</p>
-              <LazyLoadImage effect='blur' src={arrowR} alt="" />
-              <p className="sectionBColorGrey">Pricing</p>
-            </div>
+            <p className="breadcum"><a href='/' className='text-bold'>Home</a> <img src={rightArrow} alt=">" /> <span className="text-gray">Pricing</span></p>   
           </div>
           <div className="sectionB sectionGrey  ">
             <h2 className="sectionh2">Pricing</h2>
