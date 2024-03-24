@@ -37,7 +37,7 @@ function Header() {
           <h2 className='logo'>Bandage</h2>
           <ul className={(mobileNav == true ? 'mobile-menu ' : '') + 'nav-links'}>
             <li onClick={setNavFalse}><Link to="/">Home</Link></li>
-            <li onClick={setNavFalse}><Link to="#">Product</Link></li>
+            {/* <li onClick={setNavFalse}><Link to="#">Product</Link></li> */}
             <li onClick={setNavFalse}><Link to="/pricing">Pricing</Link></li>
             <li onClick={setNavFalse}><Link to="/contact">Contact</Link></li>
             <li onClick={setNavFalse}><Link to="/team">Team</Link></li>
